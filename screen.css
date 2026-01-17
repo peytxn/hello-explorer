@@ -1,4 +1,81 @@
 
 html {
-    
+    background-color: rgb(37, 36, 44);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 235, 145); 
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    filter: drop-shadow(0 0 5px rgba(150, 87, 87, 0.4));
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 243, 206);
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.planets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.planets a {
+    display: inline-block;
+}
+
+.planets a img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-right: 150px;
+}
+
+#moon {
+    max-width: 130px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-left: 150px;
+}
+
+.shadowed {
+    filter: brightness(0.5);
+}
+
+.text {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0 40px;
+}
+
+img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+    transform: scale(1.05);
 }
