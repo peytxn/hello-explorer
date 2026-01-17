@@ -1,2 +1,2 @@
 # Static HTML Boilerplate
-Basic HTML and CSS for a website.
+Basic HTML, CSS. and JavaScript for a website.
